@@ -1,0 +1,39 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: #90a99c;
+}
+
+table {
+    border: 1px solid #90a99c;
+    border-collapse: collapse;
+}
+
+#Openingsuren {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    margin-right: 1em;
+    border: 1px solid #90a99c;
+}
+
+td {
+    background-color: #548296;
+    color: white;
+    font-weight: 600;
+    border: 1px solid #90a99c;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+caption {
+    color: #90a99c;
+    caption-side: bottom;
+    margin: 10px;
+}
