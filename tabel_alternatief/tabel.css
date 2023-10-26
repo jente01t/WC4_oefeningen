@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
