@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactformulier</title>
+</head>
+
+<body>
+  <h1>Contacteer ons</h1>
+  <br>
+  <form action="https://www.w3schools.com/action_page.php">
+    <label for="volledige naam"><b>Uw volledige naam:</b></label>
+    <input type="text" name="naam" size="15" maxlength="40" placeholder="Je volledige naam">
+    <br>
+    <label for="email"><b>Uw email:</b></label>
+    <input type="email" name="email" size="30" maxlength="60" placeholder="Een geldig emailadres">
+    <br>
+    <b>Boodschap:</b>
+    <br>
+    <textarea name="Boodschap" id="Boodschap" cols="40" rows="5" placeholder="Uw boodschap voor ons"></textarea>
+    <br>
+    <b>Onderwerp:</b>
+    <select name="Onderwerp" id="Onderwerp">
+      <option value="Vacature aanvraag">Vacature aanvraag</option>
+      <option value="Algemene vraag">Algemene vraag</option>
+      <option value="Technische vraag">Technische vraag</option>
+      <option value="Vacature aanvraag">Vacature aanvraag</option>
+    </select>
+    <br>
+    <fieldset>
+      <legend>Hoe ben je op deze site terecht gekomen?</legend>
+      <input type="radio" name="reden" value="hoe bedoel je?" id="reden1">
+      <label for="reden1">hoe bedoel je?</label>
+      <input type="radio" name="reden" value="geen idee" id="reden2">
+      <label for="reden2">geen idee</label>
+      <input type="radio" name="reden" value="welke site?" id="reden3">
+      <label for="reden3">welke site?</label>
+    </fieldset>
+    <br>
+    <label for="score">Welke score geef je ons?</label>
+    <input type="range" name="score" id="score" min="0" max="100">
+    <button>Verzenden</button>
+    <input type="hidden" name="School" value="EHB">
+  </form>
+</body>
+
+</html>
+
+<!--
+Contacteer ons Vul aub alle velden in.
+Je naam :
+Je volledige naam
+
+Je email :
+Een geldig emailadres
+
+Boodschap :
+Je boodschap voor ons
+
+Onderwerp:
+Vacature aanvraag
+Algemene vraag
+Technische vraag
+Vacature aanvraag
+
+Hoe ben je op deze site terecht gekomen?
+hoe bedoel je?
+geen idee
+welke site?
+
+
+Verzenden
+-->
