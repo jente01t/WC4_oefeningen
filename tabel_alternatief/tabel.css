@@ -47,7 +47,7 @@ tr:nth-child(odd) {
     background-color: #dddddd;
 }
 
-tr:nth-child(6) {
+tr:hover {
     background-color: #ff6248;
 }
 
